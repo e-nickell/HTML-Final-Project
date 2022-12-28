@@ -55,6 +55,7 @@ button {
     font-weight: 700;
 }
 
+
 /* NAVIGATION */
 
 .nav {
@@ -126,6 +127,7 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .landing__info--wrapper {
@@ -197,6 +199,20 @@ button {
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 100px;
+}
+
+.features__sub-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #243e63;
+}
+
+.features__para {
+    font-size: 18px;
+    color: #7c8ba1;
 }
 
 .features__services {
@@ -206,4 +222,60 @@ button {
 
 .features__service {
     width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding-left: 16px;
+    color: #243e63;
+}
+
+.features__service--para {
+    color: #7c8ba1;
+}
+
+/* QUALITY */
+
+.quality__info--wrapper {
+    width: 40%;
+    height: 600px;
+}
+
+.quality__img--wrapper {
+    width: 60%;
+    height: 600px;
+}
+
+.quality__img {
+    width: 100%;
+}
+
+.quality__sub-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #243e63;
+}
+
+.quality__para {
+    font-size: 18px;
+    color: #7c8ba1;
+    margin-bottom: 24px;
+}
+
+/* STEPS */
+
+.steps__wrapper {
+    display: flex;
+}
+
+.steps__info--wrapper {
+    width: 40%;
+    height: 600px;
+    display: flex;
+}
+
+.steps__img--wrapper {
+    width: 60%;
+    height: 600px;
 }
