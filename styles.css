@@ -267,15 +267,110 @@ button {
 
 .steps__wrapper {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
 }
 
 .steps__info--wrapper {
     width: 40%;
     height: 600px;
-    display: flex;
 }
 
 .steps__img--wrapper {
     width: 60%;
     height: 600px;
+}
+
+.steps__sub-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #243e63;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.step__number {
+    font-size: 36px;
+    color: #cbd5e0;
+}
+
+.steps__img {
+    width: 100%;
+    height: 100%;
+    padding-right: 32px;
+}
+
+.step__title {
+    font-size: 20px;
+    color: #243e63;
+}
+
+.step__para {
+    font-size: 12px;
+    color: #718096;
+    padding-bottom: 24px;
+}
+
+/* VALUES */
+
+.values__sub-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #243e63;
+}
+
+.values__para {
+    font-size: 18px;
+    color: #7c8ba1;
+    padding-bottom: 16px;
+}
+
+.values__wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.values__info--wrapper {
+    width: 40%;
+}
+
+.values__img--wrapper {
+    width: 60%;
+}
+
+.values__img {
+    width: 100%;
+    height: 100%;
+}
+
+.values__tid-bit--wrapper {
+    display: flex;
+}
+
+.tid-bits {
+    display: flex;
+}
+
+.tid-bit {
+    width: 50%;
+}
+
+.tid-bit__title {
+    font-size: 20px;
+    color: #243e63;
+}
+
+.tid-bit__para {
+    font-size: 16px;
+    color: #718096;
 }
