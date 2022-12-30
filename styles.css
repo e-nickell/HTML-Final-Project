@@ -25,15 +25,13 @@ li {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    margin-top: 32px;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
+    padding: 80px 0;
 }
 
-button {
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +116,6 @@ button {
 
 .landing__title {
     font-size: 48px;
-    margin-top: 60px;
 }
 
 .landing__wrapper {
@@ -127,12 +124,11 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    justify-content: center;
 }
 
 .landing__info--wrapper {
     width: 40%;
-    justify-content: space-between;
 }
 
 .landing__para {
@@ -160,7 +156,6 @@ button {
 
 .landing__img--wrapper {
     width: 60%;
-    height: 600px;
     display: flex;
 }
 
@@ -199,7 +194,7 @@ button {
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 100px;
+    justify-content: center;
 }
 
 .features__sub-title {
@@ -236,13 +231,20 @@ button {
 /* QUALITY */
 
 .quality__info--wrapper {
-    width: 40%;
+    width: 50%;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quality__img--wrapper {
-    width: 60%;
+    width: 50%;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quality__img {
@@ -269,17 +271,23 @@ button {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    margin-bottom: 100px;
+    height: 600px;
 }
 
 .steps__info--wrapper {
-    width: 40%;
+    width: 50%;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .steps__img--wrapper {
-    width: 60%;
+    width: 50%;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .steps__sub-title {
@@ -330,22 +338,25 @@ button {
 .values__para {
     font-size: 18px;
     color: #7c8ba1;
-    padding-bottom: 16px;
+    padding-bottom: 24px;
 }
 
 .values__wrapper {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    height: 600px;
 }
 
 .values__info--wrapper {
-    width: 40%;
+    width: 50%;
+    height: 600px;
 }
 
 .values__img--wrapper {
-    width: 60%;
+    width: 50%;
+    height: 600px;
+    display: flex;
 }
 
 .values__img {
@@ -359,6 +370,7 @@ button {
 
 .tid-bits {
     display: flex;
+    margin-bottom: 24px;
 }
 
 .tid-bit {
@@ -373,4 +385,68 @@ button {
 .tid-bit__para {
     font-size: 16px;
     color: #718096;
+}
+
+/* PRICING */
+
+.pricing__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+}
+
+.pricing__info--wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.plans {
+    display: flex;
+    width: 100%;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid gray;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.plan__personal {
+    border: 2px solid black;
+    width: calc(100%/3);
+    height: 100%;
+}
+
+.plan__business {
+    border: 2px solid black;
+    width: calc(100%/3);
+}
+
+.plan__enterprise {
+    border: 2px solid black;
+    width: calc(100%/3);
 }
