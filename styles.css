@@ -393,14 +393,30 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 600px;
 }
 
 .pricing__info--wrapper {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     width: 100%;
+    margin-bottom: 64px;
+}
+
+.pricing__sub-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #243e63;
+}
+
+.pricing__para {
+    font-size: 18px;
+    color: #7c8ba1;
+    width: 100%;
+    max-width: 576px;
 }
 
 .plans {
@@ -411,42 +427,228 @@ li {
 .plan {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100%;
-    padding: 50px;
+    padding: 32px;
     text-align: center;
 }
 
-.top {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: 2px solid gray;
-}
-
-.middle {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.bottom {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
 .plan__personal {
-    border: 2px solid black;
     width: calc(100%/3);
     height: 100%;
 }
 
 .plan__business {
-    border: 2px solid black;
     width: calc(100%/3);
 }
 
 .plan__enterprise {
-    border: 2px solid black;
     width: calc(100%/3);
+}
+
+/* PERSONAL */
+
+.personal__top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px;
+}
+
+.personal__middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 -32px;
+    padding: 32px;
+}
+
+.personal__bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px 64px;
+}
+
+.personal__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.personal__price {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 4px;
+}
+
+.personal__duration {
+    font-size: 16px;
+    font-weight: 700;
+    color: #a0aec0;
+}
+
+.personal__target {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.personal__feature {
+    font-size: 16px;
+    color: #718096;
+    margin-top: 20px;
+}
+
+.personal__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 178, 172);
+    font-weight: 700;
+    color: rgb(247 250 252);
+    padding: 12px 32px;
+    border: none;
+    border-radius: 30px;
+}
+
+/* BUSINESS */
+
+.business__top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px;
+    background-color: rgb(76, 81, 191);
+}
+
+.business__middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 -32px;
+    padding: 32px;
+    background-color: rgb(76, 82, 191);
+    border-top: 1px solid rgb(226, 232, 240);
+    border-bottom: 1px solid rgb(226, 232, 240);
+}
+
+.business__bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px 64px;
+    background-color: rgb(76, 81, 191);
+}
+
+.business__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f7fafc;
+}
+
+.business__price {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f7fafc;
+    margin: 4px;
+}
+
+.business__duration {
+    font-size: 16px;
+    font-weight: 700;
+    color: #edf2f7;
+}
+
+.business__target {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f7fafc;
+}
+
+.business__feature {
+    font-size: 16px;
+    color: #edf2f7;
+    margin-top: 20px;
+}
+
+.business__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-weight: 700;
+    color: rgb(76, 81, 191);
+    padding: 12px 32px;
+    border: none;
+    border-radius: 30px;
+}
+
+/* ENTERPRISE */
+
+.enterprise__top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px;
+}
+
+.enterprise__middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 -32px;
+    padding: 32px;
+    background-color: rgb(255, 255, 255);
+}
+
+.enterprise__bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px 64px;
+}
+
+.enterprise__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.enterprise__price {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 4px;
+}
+
+.enterprise__duration {
+    font-size: 16px;
+    font-weight: 700;
+    color: #a0aec0;
+}
+
+.enterprise__target {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.enterprise__feature {
+    font-size: 16px;
+    color: #718096;
+    margin-top: 20px;
+}
+
+.enterprise__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 101, 101);
+    font-weight: 700;
+    color: rgb(247 250 252);
+    padding: 12px 32px;
+    border: none;
+    border-radius: 30px;
 }
